@@ -1,0 +1,128 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99%;
+  background: #fff;
+  z-index: 1000; /* لتجنب تغطيته */
+  padding: 10px;
+  box-shadow: 0 2px 9px rgb(12 158 162);
+}
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .logo {
+    font-size: 24px;
+    padding-left: 50PX;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #f9f9f9;
+    background-image: url(bg.png);
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text span {
+    color: rgb(12 158 162);
+  }
+  
+  .hero-text .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background:rgb(12 158 162);
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    
+  }
+  
+  .hero-images img {
+    margin: 10px;
+    border-radius: 5px;
+    width:500px;
+    height:400px;
+    margin-top: 150px;
+
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    padding: 40px 20px;
+  }
+  
+  .feature-box {
+    text-align: center;
+    width: 22%;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  .icon {
+   justify-content:space-around ;
+   padding-right: 9px;
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+    
+  }
+  
+  .reviews {
+    padding: 40px 20px;
+    background: #f2f2f2;
+    text-align: center;
+  }
+  
+  .review-box {
+    display: inline-block;
+    width: 22%;
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .review-box img {
+    width: 60px;
+    border-radius: 50%;
+  }
